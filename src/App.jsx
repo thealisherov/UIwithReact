@@ -1,19 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
 
 function App() {
-
-
   return (
     <>
-<div>
-<h1>Heloo</h1>
-</div>
- <div>
- <h1>Heloo</h1>
-
- </div>
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
